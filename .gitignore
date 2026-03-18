@@ -1,0 +1,45 @@
+# Terraform state — never commit
+*.tfstate
+*.tfstate.backup
+.terraform/
+.terraform.lock.hcl
+
+# Secrets
+*.tfvars
+*.tfvars.json
+
+# OS noise
+.DS_Store
+
+*.cover
+*.db
+*.egg
+*.egg-info/
+*.iml
+*.log
+*.pkl
+*.pot
+*.pyc
+*.pyc
+*.pyd
+*.pyo
+*.sqlite
+*.swp
+*.tar.gz
+*.whl
+.AppleDouble
+.LSOverride
+.cache/
+.idea/
+.mypy_cache/
+.venv/
+.vscode/
+Desktop.ini
+ENV/
+Thumbs.db
+__pycache__/
+build/
+coverage.xml
+dist/
+env/
+venv/
