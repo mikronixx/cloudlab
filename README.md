@@ -8,6 +8,7 @@ AWS to start. GCP and Azure to follow.
 ```
 aws/
   vpc/
+  aws-api-testlab/
 ```
 
 ## Why? 
@@ -19,12 +20,21 @@ aws/
 - Terraform >= 1.x
 - AWS CLI configured (`aws configure`)
 
+## Prereqs
+```bash
+pip install pre-commit
+pre-commit install
+```
 ## Usage
 ```bash
-cd aws/vpc
+cd aws/<some_dir>
 terraform init
 terraform plan
 terraform apply
+```
+## When done
+```bash
+terraform destroy
 ```
 
 ## Roadmap
