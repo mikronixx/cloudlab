@@ -31,7 +31,7 @@ variable "azs" {
 variable "instance_count" {
   description = "Number of EC2 instances"
   type        = number
-  default     = 10
+  default     = 3
 }
 
 variable "key_name" {
