@@ -1,7 +1,0 @@
-# Copy to terraform.tfvars and fill in
-name           = "test-platform"
-region         = "us-west-2"
-# profile      = "your-aws-profile"
-key_name       = "your-key-pair-name"
-ssh_cidr       = "0.0.0.0/0"  # lock this down to your IP
-instance_count = 10
